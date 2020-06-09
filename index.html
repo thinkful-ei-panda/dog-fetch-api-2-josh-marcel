@@ -12,14 +12,15 @@
     <div class="container">
         <h1>Dog API</h1>
 
-        <form oninput="output.value=number.value">
-          <label for="number">How many dogs do you want to see? (1-50)</label>
-          <input type="input" value="3" name="number" id="numberOfDogs">
-          <input type="submit" value="Get pics">
+        <form oninput="output.value=number.value" >
+          <label for="breeds" >What breed do you want to see?</label>
+          <input type="input" placeholder="hound, terrier etc." name="number" id="typeOfBreed">
+         
+          <input type="submit" value="Get pic">
         </form>
         <div class="image-container"></div>
         <section class="results hidden">
-          <h2>Doc Pics</h2>
+          <h2>Dog Pics</h2>
           <div id="dogs"><img class="results-img" alt="placeholder"></div>
         </section>
         </div>
